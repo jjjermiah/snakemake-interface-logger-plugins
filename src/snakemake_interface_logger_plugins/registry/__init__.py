@@ -22,7 +22,7 @@ from snakemake_interface_logger_plugins.base import (
 )
 
 
-class LoggerPluginRegistry(PluginRegistryBase):
+class LoggerPluginRegistry(PluginRegistryBase[Plugin]):
     """This class is a singleton that holds all registered logger plugins."""
 
     @property
